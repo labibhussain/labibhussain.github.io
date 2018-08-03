@@ -7,7 +7,6 @@ body {
     background-size: 400% 400%;
     animation: BackgroundGradient 30s ease infinite;
 }
-
 @keyframes BackgroundGradient {
     0% {background-position: 0% 50%;}
     50%{background-position: 100% 50%;}
@@ -74,6 +73,21 @@ a:hover {
     color: #1b4589;
     margin-bottom: 0px;
     margin-left: 5px;
+}
+#particles-js{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.body-particles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 
