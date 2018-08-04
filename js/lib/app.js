@@ -1,5 +1,6 @@
 
 /* The following code uses the ParticleJS library to create the animations on the starting page */
+/* Changed around some of the properties for a visualistic effect */
 
 particlesJS('particles-js',
   
@@ -13,10 +14,10 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "random"
       },
       "shape": {
-        "type": "circle",
+        "type": "polygon",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -41,11 +42,11 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 5,
+        "value": 7,
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 40,
+          "speed": 50,
           "size_min": 0.1,
           "sync": false
         }
@@ -53,7 +54,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#ffa76d",
         "opacity": 0.4,
         "width": 1
       },
